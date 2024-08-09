@@ -18,7 +18,7 @@ function InvoiceUploader({ setInvoiceData, setError, setIsLoading }) {
         formData.append('invoice', file);
     
         try {
-          const response = await fetch('http://localhost:5000/process-invoice', {
+          const response = await fetch('https://invoiceviewerbackend.onrender.com/process-invoice', {
             method: 'POST',
             body: formData,
           });
