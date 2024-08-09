@@ -9,8 +9,7 @@
   - [Installation](#installation)
 - [Usage](#usage)
 - [API](#api)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Description
 
