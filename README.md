@@ -36,5 +36,37 @@ Invoice Viewer is a React-based web application that allows users to upload PDF 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/invoice-viewer.git
-   cd invoice-viewer
-  ```
+   cd invoice-viewer ```
+2. **Install dependencies (both client and server):**
+ ```bash
+  cd client
+  npm install
+  cd ../server
+  npm install 
+ ```
+3. Set up environment variables:
+- Create a .env file in the server directory.
+- Add the following variables, replacing placeholders with your actual values:
+```bash
+PORT=5000
+GOOGLE_AI_API_KEY=your_google_ai_api_key
+```
+### Usage
+- Start the server:
+```bash
+cd server
+npm start
+```
+- Open your browser and navigate to http://localhost:5173.
+- Upload a PDF invoice.
+- Click "Extract Details" to process the invoice.
+- Review the extracted invoice details.
+
+## API
+
+The application uses a server-side API for processing invoices:
+
+- Endpoint: `http://localhost:5000/process-invoice`
+- Method: POST
+- Payload: FormData containing the PDF file
+- Response: JSON object with extracted invoice details or error information
