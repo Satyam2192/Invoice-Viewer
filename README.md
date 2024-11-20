@@ -1,4 +1,3 @@
-I'll help you create an updated README.md that reflects the current implementation and features of the Invoice Viewer application. Here's a comprehensive README:
 
 ```markdown
 # Invoice Viewer 📄✨
