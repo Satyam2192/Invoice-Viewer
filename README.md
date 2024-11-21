@@ -3,6 +3,9 @@
 ## Overview
 Invoice Viewer is an advanced React-based web application that automates invoice data extraction and management. It supports multiple file formats (PDF, Excel, Images) and uses AI-powered extraction to seamlessly process and organize invoice information.
 
+- Live URL - https://invoice-viewer-zeta.vercel.app/
+- Backend - https://github.com/Satyam2192/Invoice-Viewer-Backend
+
 ## 🌟 Features
 
 ### Intelligent Data Extraction
@@ -75,36 +78,17 @@ Invoice Viewer is an advanced React-based web application that automates invoice
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/invoice-viewer.git
+git https://github.com/Satyam2192/Invoice-Viewer.git
 cd invoice-viewer
 ```
 
 2. Install dependencies
 ```bash
-# Frontend
-cd Invoice-Viewer
 npm install
-
-# Backend
-cd ../Invoice-Viewer-Backend
-npm install
-```
-
-3. Set Up Environment Variables
-- Create `.env` in the backend directory
-- Add your Google AI API key:
-```
-API_KEY=your_google_generative_ai_api_key
 ```
 
 4. Run the Application
 ```bash
-# Start Backend (Port 5000)
-cd Invoice-Viewer-Backend
-npm start
-
-# Start Frontend (Port 3000/5173)
-cd ../Invoice-Viewer
 npm run dev
 ```
 
