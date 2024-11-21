@@ -7,7 +7,7 @@ function InvoiceUploader() {
   const [localLoading, setLocalLoading] = useState(false);
   const dispatch = useDispatch();
 
-  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'https://your-production-backend.com';
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'https://invoice-viewer-backend-2.onrender.com';
 
   const handleFileChange = (event) => {
     const selectedFile = event.target.files[0];
